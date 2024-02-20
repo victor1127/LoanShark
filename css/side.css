@@ -1,0 +1,70 @@
+:root{
+    --primary-color: #EEF5FF;
+    --secondary-color: #9EB8D9;
+    --third-color: #7C93C3;
+    --dark-gray:#3C3633;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+nav{
+    font-weight: bold;
+    background-color: var(--dark-gray);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--dark-gray);
+}
+
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    padding-left: 1rem;
+}
+
+footer .social>a{
+    color: var(--dark-gray);
+}
+
+footer .social>a:hover{
+    color: var(--third-color);
+}
+
+.js-color{
+    color: rgb(205, 205, 40);
+}
+
+.bootstrap-color{
+    color: #7e44e8;
+}
+
+.html-color{
+    color: orangered;
+}
+
+.css-color{
+    color:blue;
+}
+
+.checklist >li i{
+    color: var(--third-color);
+}
+
+code[class*="language-"],
+        pre[class*="language-"] {
+        white-space: pre-wrap;
+        word-break: break-all;
+        word-wrap: break-word;
+}
