@@ -51,7 +51,113 @@
         </nav>
 
         <main class="flex-shrink-0">
+            <div class="container">
+                <div class="row pt-5 gy-3">
+                    <div class="col-md-4 p-3">
+                        <form>
+                            <div class="row align-items-center">
+                                <div class="col-md-4">
+                                    <label class="control-label" for="loanAmount">Loan Amount</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" id="loanAmount" placeholder="$0.00">
+                                </div>
+                            </div>
 
+                            <div class="row align-items-center mt-2">
+                                <div class="col-md-4">
+                                    <label class="control-label" for="term">Term (Months)</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" id="term" placeholder="0">
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center mt-2">
+                                <div class="col-md-4">
+                                    <label class="control-label" for="rate">Interest Rate</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" id="rate" placeholder="0%">
+                                </div>
+                            </div>
+
+                            <div class="row mt-2 pt-2">
+                                <div class="col-12 d-flex justify-content-end align-items-end">
+                                    <button class="btn btn-success">Calculate</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-8 bg-pimary border border-1 border-dark p-3">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h2 class="fw-bold">Your Monthly Payments</h2>
+                            </div>
+
+                            <div class="col-12 text-center pt-5">
+                                <h2 class="fw-bold">$471.78</h2>
+                            </div>
+
+                            <div class="col-12 d-flex justify-content-evenly pt-5">
+                                <div>
+                                    <h6>Total Principal</h6>
+                                    <h6>Total Interest</h6>
+                                    <h6>Total Cost</h6>
+                                </div>
+
+                                <div>
+                                    <h6>$25,000.00</h6>
+                                    <h6>$3,306.85</h6>
+                                    <h6>$28,306.85</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 p-3 border">
+                        <div class="bg-light rounded">
+                            <table class="table table-responsive table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Color</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Turtle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Blue</th>
+                                        <td>Leonardo</td>
+                                        <td>da Vinci</td>
+                                        <td>Leo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Red</th>
+                                        <td>Raffaello</td>
+                                        <td>Sanzio da Urbino</td>
+                                        <td>Raph</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Purple</th>
+                                        <td>Donato</td>
+                                        <td>di Niccolò di Betto Bardi</td>
+                                        <td>Donnie</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Orange</th>
+                                        <td>Michelangelo</td>
+                                        <td>di Lodovico Buonarroti Simoni</td>
+                                        <td>Mikey</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer class="footer mt-auto py-3 bg-light">
